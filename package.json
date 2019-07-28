@@ -1,0 +1,19 @@
+{
+  "name": "rebirth-of-reddit",
+  "version": "0.0.1",
+  "description": "Rebirth of Reddit assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rianmueller/rebirth-of-reddit.git"
+  },
+  "author": "Rian Mueller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rianmueller/rebirth-of-reddit/issues"
+  },
+  "homepage": "https://github.com/rianmueller/rebirth-of-reddit#readme"
+}
