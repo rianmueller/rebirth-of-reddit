@@ -29,15 +29,24 @@ body {
 #logo {
   position: relative; }
 
-#plusIcon {
-  position: relative; }
+#contentPane {
+  display: grid;
+  align-items: center;
+  justify-content: center; }
 
 #header2 {
-  background-color: #2c2c2e;
+  background-color: #3a3a3c;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
-  color: #6e6f72;
-  text-align: center; }
+  color: #818285;
+  text-align: center;
+  padding: 8px; }
 
 #footer {
-  background-color: #2c2c2e; }
+  background-color: #3a3a3c;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px; }

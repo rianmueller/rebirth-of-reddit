@@ -70,7 +70,8 @@ header1.appendChild(logo);
 
 let header2 = document.createElement("div");
 header2.id = "header2";
-header2.innerHTML = "RANDOM &middot; MY BOARDS &middot; GET THE APP";
+header2.innerHTML =
+  "RANDOM &nbsp;&middot;&nbsp; MY BOARDS &nbsp;&middot;&nbsp; GET THE APP";
 document.body.appendChild(header2);
 
 let contentPane = document.createElement("div");
@@ -80,3 +81,17 @@ document.body.appendChild(contentPane);
 let footer = document.createElement("div");
 footer.id = "footer";
 document.body.appendChild(footer);
+
+let fbIcon = document.createElement("img");
+fbIcon.id = "fbIcon";
+fbIcon.src = "/assets/facebook_grey.svg";
+footer.appendChild(fbIcon);
+
+let footerIconSeperator = document.createElement("div");
+footerIconSeperator.innerHTML = "&nbsp;&nbsp;&nbsp;";
+footer.appendChild(footerIconSeperator);
+
+let instaIcon = document.createElement("img");
+instaIcon.id = "instaIcon";
+instaIcon.src = "/assets/instagram_grey.svg";
+footer.appendChild(instaIcon);

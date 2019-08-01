@@ -35,18 +35,33 @@ body {
   position: relative;
 }
 
-#plusIcon {
-  position: relative;
+// #plusIcon {
+//   position: relative;
+// }
+
+#contentPane {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 #header2 {
-  background-color: #2c2c2e;
+  background-color: #3a3a3c;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
-  color: #6e6f72;
+  color: #818285;
   text-align: center;
+  // box-shadow: 0px, -15px, #000000;
+  padding: 8px;
 }
 
 #footer {
-  background-color: #2c2c2e;
+  background-color: #3a3a3c;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
 }
